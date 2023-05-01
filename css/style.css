@@ -4,7 +4,7 @@
 }
 .navbar1 {
     background-color: #f8f9fa; /* Couleur de fond */
-    padding: 10px; /* Espacement interne */
+    padding: 15px; /* Espacement interne */
     display: flex; /* Affichage en mode flexbox */
     justify-content: space-between; /* Alignement horizontal des éléments */
     align-items: center; /* Alignement vertical des éléments */
@@ -273,6 +273,121 @@
 .choi_ideal{
   font-size: 35px;
 }
+.acheter{
+  background-image: url('../image/acheter.png');
+  width: 97%;
+  height: 850px;
+  z-index: -1;
+  margin-left: 20px;
+}
+.acheter_2{
+ margin-top: 150px;
+ margin-left: 200px;
+
+  
+}
+.acheter_3{
+  font-size: 40px;
+}
+.acheter_4{
+  margin-left: 180px;
+}
+.footer{
+  background-color: #000;
+  width: 97%;
+  height: 400px;
+  margin-left: 20px;
+
+}
+.footer {
+  background-color: #252525;
+  padding: 60px 0;
+  font-size: 14px;
+  color: #f5f5f5;
+}
+
+.footer h3 {
+  color: #fdfdfd;
+  margin-bottom: 30px;
+}
+
+.footer p {
+  margin-bottom: 20px;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fdfdfd;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.contact li i {
+  margin-right: 10px;
+}
+
+.social li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social li:last-child {
+  margin-right: 0;
+}
+ /* Style du titre */
+ .form-title {
+ /* font-size: 34px;
+  font-weight: bold;
+  text-align: center;*/
+ 
+}
+
+/* Animation du titre */
+.form-title:hover {
+  animation-name: zoom-in;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom-in {
+  from { transform: scale(1); }
+  to { transform: scale(1.2); }
+}
+
+/*#contact-form input,
+#contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact-form textarea {
+  height: 100px;
+}
+
+#contact-form button {
+  background-color: #2c3e50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 /*.btn-md {
   font-size: 16px;
   font-weight: 600;
@@ -377,4 +492,3 @@
   .carousel input[type="radio"]:checked + img {
     opacity: 1;
   }
-  
